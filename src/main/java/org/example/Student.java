@@ -1,7 +1,7 @@
 package org.example;
 
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
+
 import java.util.Arrays;
 @AllArgsConstructor
 public class Student {
@@ -11,7 +11,7 @@ public class Student {
     private String lname;
     private String[] registeredCourses = new String[5];
 
-    public Student(String studentId) {
+    public Student(String studentId, String lastName, Departement department) {
         this.studentId = studentId;
     }
     public Student(){

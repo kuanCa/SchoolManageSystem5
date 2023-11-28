@@ -20,7 +20,7 @@ public class Course {
         this.students = students;
         this.teacher = teacher;
     }
-    public Course(){
+    public Course(String courseName, double credit, Departement department){
         this.courseId = "C" + String.format("%03d", nextId++);
     }
 
