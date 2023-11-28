@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d791b840-d1f9-43e2-80cd-b9a03e27539a" name="Changes" comment="Class Course and teacher completed. fixed other little problem.">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+    <list default="true" id="d791b840-d1f9-43e2-80cd-b9a03e27539a" name="Changes" comment="SchoolManageSystem calss finished.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SchoolManageSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SchoolManageSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701133910335</updated>
-      <workItem from="1701133911340" duration="6372000" />
+      <workItem from="1701133911340" duration="8825000" />
     </task>
     <task id="LOCAL-00001" summary="Completed class Departement and class student.&#10;Will finish other class diagram.">
       <option name="closed" value="true" />
@@ -76,7 +74,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701139615235</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="SchoolManageSystem able to add new department, student, teacher and course.">
+      <option name="closed" value="true" />
+      <created>1701140596215</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701140596216</updated>
+    </task>
+    <task id="LOCAL-00004" summary="SchoolManageSystem calss finished.">
+      <option name="closed" value="true" />
+      <created>1701145165627</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701145165627</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +99,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Completed class Departement and class student.&#10;Will finish other class diagram." />
     <MESSAGE value="Class Course and teacher completed. fixed other little problem." />
-    <option name="LAST_COMMIT_MESSAGE" value="Class Course and teacher completed. fixed other little problem." />
+    <MESSAGE value="SchoolManageSystem able to add new department, student, teacher and course." />
+    <MESSAGE value="SchoolManageSystem calss finished." />
+    <option name="LAST_COMMIT_MESSAGE" value="SchoolManageSystem calss finished." />
   </component>
 </project>

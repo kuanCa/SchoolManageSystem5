@@ -51,10 +51,41 @@ public class SchoolManageSystem {
         return null;
     }
 
-    class SchoolManagementSystem {
-        // Existing attributes and methods
+    public void assignTeacherToCourse(String t020, String c007) {
+    }
 
-        // Method to display all departments that are not null
+    public void registerCourseForStudent(String s001, String c027) {
+    }
+
+    public Student searchStudent(String s127) {
+        return null;
+    }
+
+    public Course searchCourse(String c002) {
+        return null;
+    }
+
+    public Teacher searchTeacher(String t013) {
+        return null;
+    }
+
+    public Departement searchDepartment(String d011) {
+        return null;
+    }
+
+    public void displayCourses() {
+    }
+
+    public void displayDepartments() {
+    }
+
+    public void displayStudents() {
+    }
+
+    public void displayTeachers() {
+    }
+
+    class SchoolManagementSystem {
         public void displayDepartments() {
             for (Departement department : departements) {
                 if (department != null) {
@@ -62,7 +93,6 @@ public class SchoolManageSystem {
                 }
             }
         }
-
         // Method to display all students with their courses and department information if available
         public void displayStudents() {
             for (Student student : students) {
@@ -71,7 +101,6 @@ public class SchoolManageSystem {
                 }
             }
         }
-
         // Method to display all teachers with their courses and department information if available
         public void displayTeachers() {
             for (Teacher teacher : teachers) {
@@ -89,7 +118,6 @@ public class SchoolManageSystem {
                 }
             }
         }
-
         // Method to search for a department based on departmentId
         public Departement searchDepartment(String departmentId) {
             for (Departement department : departements) {
@@ -99,7 +127,6 @@ public class SchoolManageSystem {
             }
             return null;
         }
-
         // Method to search for a teacher based on teacherId
         public Teacher searchTeacher(String teacherId) {
             for (Teacher teacher : teachers) {
@@ -109,7 +136,6 @@ public class SchoolManageSystem {
             }
             return null;
         }
-
         // Method to search for a course based on courseId
         public Course searchCourse(String courseId) {
             for (Course course : courses) {
@@ -119,7 +145,6 @@ public class SchoolManageSystem {
             }
             return null;
         }
-
         // Method to search for a student based on studentId
         public Student searchStudent(String studentId) {
             for (Student student : students) {
@@ -129,7 +154,6 @@ public class SchoolManageSystem {
             }
             return null;
         }
-
         // Method to assign a teacher to a specific course
         public void assignTeacherToCourse(String teacherId, String courseId) {
             Teacher teacher = searchTeacher(teacherId);
@@ -141,7 +165,6 @@ public class SchoolManageSystem {
                 System.out.println("Teacher or course cannot find.");
             }
         }
-
         // Method to register a course for a student
         public void registerCourseForStudent(String studentId, String courseId) {
             Student student = searchStudent(studentId);
