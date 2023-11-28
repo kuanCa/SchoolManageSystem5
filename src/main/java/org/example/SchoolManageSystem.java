@@ -8,16 +8,13 @@ public class SchoolManageSystem {
 
     public void addDepartment(String departmentName) {
         Departement newDepartment = new Departement(departmentName);
-        // Add logic to add the new department to the departments array
     }
 
     // Method to add a new student
     public void addStudent(String firstName, String lastName, String departmentId) {
-        // Assuming you have a method to search for a department based on its ID
         Departement department = searchDepartement(departmentId);
         if (department != null) {
             Student newStudent = new Student(firstName, lastName, department);
-            // Add logic to add the new student to the students array
         } else {
             System.out.println("Can not find Department");
         }
@@ -25,11 +22,9 @@ public class SchoolManageSystem {
 
     // Method to add a new teacher
     public void addTeacher(String firstName, String lastName, String departmentId) {
-        // Assuming you have a method to search for a department based on its ID
         Departement department = searchDepartement(departmentId);
         if (department != null) {
             Teacher newTeacher = new Teacher(firstName, lastName, departmentId);
-            // Add logic to add the new teacher to the teachers array
         } else {
             System.out.println("Can not find Department");
         }
@@ -37,11 +32,9 @@ public class SchoolManageSystem {
 
     // Method to add a new course
     public void addCourse(String courseName, double credit, String departmentId) {
-        // Assuming you have a method to search for a department based on its ID
         Departement department = searchDepartement(departmentId);
         if (department != null) {
             Course newCourse = new Course(courseName, credit, department);
-            // Add logic to add the new course to the courses array
         } else {
             System.out.println("Can not find Department");
         }
@@ -171,11 +164,9 @@ public class SchoolManageSystem {
             Course course = searchCourse(courseId);
 
             if (student != null && course != null) {
-                // Add logic to handle the registration process
             } else {
                 System.out.println("Student or course cannot find.");
             }
-            // Additional logic for registration based on the given constraints
         }
     }
 }
