@@ -1,7 +1,9 @@
 package org.example;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 import java.util.Arrays;
-
+@AllArgsConstructor
 public class Student {
     private static int nextId = 1;
     private String studentId;
@@ -13,7 +15,7 @@ public class Student {
         this.studentId = studentId;
     }
     public Student(){
-        this.studentId = "S" + String.format("%03d",nextId);
+        this.studentId = "S" + String.format("%03d",nextId++);
         this.fname = new String(fname);
         this.lname = new String(lname);
         this.registeredCourses = new String[5];
